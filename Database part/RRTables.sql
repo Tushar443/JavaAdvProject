@@ -34,3 +34,5 @@ create table user(
 
 
 
+select * from user;
+select * from train;
