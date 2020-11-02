@@ -3,6 +3,11 @@ show tables;
 use rr;
 drop table user;
 
+select * from user;
+select * from train;
+
+delete from user where user_id=5;
+
 desc train;
 desc user;
 
@@ -34,5 +39,3 @@ create table user(
 
 
 
-select * from user;
-select * from train;
