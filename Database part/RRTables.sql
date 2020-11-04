@@ -5,11 +5,19 @@ drop table user;
 
 select * from user;
 select * from train;
+select * from class_type;
 
-delete from user where user_id=5;
+delete from user where user_id=3;
 
 desc train;
 desc user;
+desc class_type;
+
+insert into class_type (class_name,price,train_id) values("gen",150,1);
+insert into class_type (class_name,price,train_id) values("ac1",200,1);
+insert into class_type (class_name,price,train_id) values("ac2",250,1);
+insert into class_type (class_name,price,train_id) values("fc",350,1);
+insert into class_type (class_name,price,train_id) values("slp",400,1);
 
 create table train(
 	train_id int auto_increment not null primary key,
